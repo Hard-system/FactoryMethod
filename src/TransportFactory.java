@@ -1,4 +1,4 @@
-public class TransportFactory {
+public class TransportPriceFactory {
 
     public static Transport getTransportPrice(String transport) {
         if (transport.equalsIgnoreCase("car")) {
