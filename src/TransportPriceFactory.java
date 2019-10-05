@@ -1,6 +1,6 @@
 public class TransportPriceFactory {
 
-    public static Transport getTransportPrice(String transport) {
+    public static TransportPrice getTransportPrice(String transport) {
         if (transport.equalsIgnoreCase("car")) {
             return new Car();
         }

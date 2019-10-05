@@ -1,7 +1,7 @@
 public class Main {
 
     public static void main(String[] args) {
-       Transport transport = TransportPriceFactory.getTransportPrice("car");
+       TransportPrice transport = TransportPriceFactory.getTransportPrice("car");
         transport.costs();
 
         transport = TransportPriceFactory.getTransportPrice("plane");

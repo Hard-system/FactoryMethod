@@ -1,0 +1,3 @@
+interface TransportPrice {
+  void costs();
+}
